@@ -1,4 +1,4 @@
-之前的工作中（Manticor）主要由于没有完整的指令仿真操作集合以及没有办法处理导入函数。
+之前的工作中（Manticore）主要由于没有完整的指令仿真操作集合以及没有办法处理导入函数。
 
 所以在 SeeWASM 中对于外部函数实现了 side-effect-aware external dependency emulation 来实现对于外部函数的符号执行和栈空间模拟。
 
